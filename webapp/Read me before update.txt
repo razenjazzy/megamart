@@ -1,0 +1,12 @@
+Hello,
+
+If you're already using Megamart please follow below Instructions.
+
+-- make sure backup your database from your phpmyadmin.
+-- after update make sure all of your add-on is updated
+
+if you face any issue after update contact us via our support center.
+http://support.golpocom.com
+https://www.mediafire.com/folder/j3ojms4liumg0/Active_eCommerce_CMS#myfiles
+
+Thnak you
