@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class AffiliateStats extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
-    //
+    
 }

@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class DeliveryHistory extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function order()
     {

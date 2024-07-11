@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class CouponUsage extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
-    //
+    
 }

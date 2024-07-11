@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class RoleTranslation extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
     protected $fillable = ['name', 'lang', 'role_id'];
 

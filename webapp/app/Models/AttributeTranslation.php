@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class AttributeTranslation extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
   protected $fillable = ['name', 'lang', 'attribute_id'];
 

@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class CombinedOrder extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function orders(){
     	return $this->hasMany(Order::class);

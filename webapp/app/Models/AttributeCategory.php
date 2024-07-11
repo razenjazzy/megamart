@@ -7,9 +7,9 @@ use App\Traits\PreventDemoModeChanges;
 
 class AttributeCategory extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
-    //
+    
 
     protected $table = "attribute_category";
 }

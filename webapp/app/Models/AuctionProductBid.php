@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class AuctionProductBid extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function product(){
     	return $this->belongsTo(Product::class);

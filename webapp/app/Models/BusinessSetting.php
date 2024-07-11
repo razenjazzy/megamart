@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class BusinessSetting extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
-    //
+    
 }

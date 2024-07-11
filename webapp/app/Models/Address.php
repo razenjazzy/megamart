@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Address extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $fillable = ['set_default'];
 

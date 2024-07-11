@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class MeasurementPoint extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $guarded = [];
 }

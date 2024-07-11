@@ -8,7 +8,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class AppTranslation extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     use HasFactory;
 

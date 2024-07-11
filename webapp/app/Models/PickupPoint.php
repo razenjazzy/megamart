@@ -8,7 +8,7 @@ use App;
 
 class PickupPoint extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $with = ['pickup_point_translations'];
 

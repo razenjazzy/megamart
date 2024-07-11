@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Order extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
     public function orderDetails()
     {
         return $this->hasMany(OrderDetail::class);

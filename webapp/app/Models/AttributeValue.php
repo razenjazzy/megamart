@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class AttributeValue extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
 
     public function attribute() {

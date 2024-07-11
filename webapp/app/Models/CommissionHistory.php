@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class CommissionHistory extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function order() {
         return $this->hasOne(Order::class, 'id', 'order_id');

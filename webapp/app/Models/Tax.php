@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Tax extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function product_taxes() {
         return $this->hasMany(ProductTax::class);

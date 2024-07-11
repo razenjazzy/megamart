@@ -9,7 +9,7 @@ use Maatwebsite\Excel\Concerns\WithHeadings;
 
 class OrdersExport implements FromCollection, WithMapping, WithHeadings
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $order_ids;
 

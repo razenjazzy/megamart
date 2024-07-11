@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Shop extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
 
   protected $with = ['user'];

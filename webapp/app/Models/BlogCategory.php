@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class BlogCategory extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     use SoftDeletes;
     

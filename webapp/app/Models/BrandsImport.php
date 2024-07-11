@@ -9,10 +9,10 @@ use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Concerns\ToCollection;
 use Illuminate\Support\Str;
 
-//class ProductsImport implements ToModel, WithHeadingRow, WithValidation
+class ProductsImport implements ToModel, WithHeadingRow, WithValidation
 class BrandsImport implements ToCollection, WithHeadingRow, ToModel
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     private $rows = 0;
 

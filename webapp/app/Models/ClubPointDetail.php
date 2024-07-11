@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class ClubPointDetail extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function product()
     {

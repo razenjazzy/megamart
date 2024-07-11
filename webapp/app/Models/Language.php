@@ -8,7 +8,7 @@ use App;
 
 class Language extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
-  //
+  
 }

@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class ManualPaymentMethod extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $guarded = [];
 }

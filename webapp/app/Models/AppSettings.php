@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class AppSettings extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function currency()
     {

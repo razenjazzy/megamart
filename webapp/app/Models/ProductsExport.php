@@ -11,7 +11,7 @@ use Maatwebsite\Excel\Concerns\WithHeadings;
 
 class ProductsExport implements FromCollection, WithMapping, WithHeadings
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function collection()
     {

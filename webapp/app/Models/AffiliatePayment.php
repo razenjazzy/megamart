@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class AffiliatePayment extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
-    //
+    
 }

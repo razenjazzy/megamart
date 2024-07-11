@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class CustomerPackageTranslation extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
   protected $fillable = ['name', 'lang', 'customer_package_id'];
 

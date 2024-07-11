@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Hash;
 
 class CustomersImport implements ToModel, WithHeadingRow
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function model(array $row)
     {

@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class CartProduct extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $guarded = [];
 

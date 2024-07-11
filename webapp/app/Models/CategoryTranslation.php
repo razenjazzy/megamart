@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class CategoryTranslation extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $fillable = ['name', 'lang', 'category_id'];
 

@@ -9,7 +9,7 @@ use App;
 
 class Brand extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $with = ['brand_translations'];
     protected $fillable = ['name', 'logo', 'slug', 'meta_title', 'meta_description'];

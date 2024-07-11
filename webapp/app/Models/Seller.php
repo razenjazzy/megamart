@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Seller extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
 
   protected $with = ['user', 'user.shop'];

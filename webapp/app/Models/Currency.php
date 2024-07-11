@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Currency extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
-    //
+    
 }

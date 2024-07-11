@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class RefundRequest extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function orderDetail()
     {

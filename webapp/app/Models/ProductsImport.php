@@ -16,10 +16,10 @@ use Auth;
 use Carbon\Carbon;
 use Storage;
 
-//class ProductsImport implements ToModel, WithHeadingRow, WithValidation
+class ProductsImport implements ToModel, WithHeadingRow, WithValidation
 class ProductsImport implements ToCollection, WithHeadingRow, WithValidation, ToModel
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     private $rows = 0;
 
@@ -101,7 +101,7 @@ class ProductsImport implements ToCollection, WithHeadingRow, WithValidation, To
     public function rules(): array
     {
         return [
-            // Can also use callback validation rules
+             Can also use callback validation rules
             'unit_price' => function ($attribute, $value, $onFailure) {
                 if (!is_numeric($value)) {
                     $onFailure('Unit price is not numeric');

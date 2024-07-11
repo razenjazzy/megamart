@@ -8,7 +8,7 @@ use App;
 
 class FlashDeal extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $with = ['flash_deal_translations'];
 

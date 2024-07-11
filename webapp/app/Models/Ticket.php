@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Ticket extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function user(){
     	return $this->belongsTo(User::class);

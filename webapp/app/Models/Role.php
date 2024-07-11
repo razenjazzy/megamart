@@ -8,7 +8,7 @@ use App;
 
 class Role extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
     protected $with = ['role_translations'];
 

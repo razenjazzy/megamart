@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class PasswordReset extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $fillable = ['email', 'token'];
 }

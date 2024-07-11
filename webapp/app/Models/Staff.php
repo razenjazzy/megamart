@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Staff extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function user()
     {

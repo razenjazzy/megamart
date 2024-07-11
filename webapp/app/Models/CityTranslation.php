@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class CityTranslation extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
   protected $fillable = ['name', 'lang', 'city_id'];
 

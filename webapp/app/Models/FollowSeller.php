@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class FollowSeller extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $guarded = [];
     

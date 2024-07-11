@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Country extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     /**
      * Get the Zone that owns the Country

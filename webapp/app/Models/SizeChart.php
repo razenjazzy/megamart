@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class SizeChart extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $guarded = [];
     

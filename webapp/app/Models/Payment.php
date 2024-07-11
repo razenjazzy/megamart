@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Payment extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
-    //
+    
 }

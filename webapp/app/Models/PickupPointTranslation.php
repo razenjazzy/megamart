@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class PickupPointTranslation extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
     protected $fillable = ['name', 'address', 'lang', 'pickup_point_id'];
 

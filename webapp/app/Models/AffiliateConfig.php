@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class AffiliateConfig extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
-    //
+    
 }

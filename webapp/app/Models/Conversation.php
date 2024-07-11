@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Conversation extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function messages(){
         return $this->hasMany(Message::class);

@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Addon extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
-    //
+    
 }

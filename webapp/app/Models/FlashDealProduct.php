@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class FlashDealProduct extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $fillable=['flash_deal_id', 'product_id'];
 

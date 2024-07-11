@@ -8,7 +8,7 @@ use App;
 
 class SellerPackage extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $guarded = [];
 

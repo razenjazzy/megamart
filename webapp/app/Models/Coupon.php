@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Coupon extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $fillable = [
         'user_id', 'type', 'code','details','discount', 'discount_type', 'start_date', 'end_date', 'status'

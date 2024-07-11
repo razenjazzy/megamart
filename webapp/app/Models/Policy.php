@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Policy extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
-    //
+    
 }

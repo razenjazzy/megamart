@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class ProductTax extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
-    //
+    
 }

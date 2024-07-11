@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class FlashDealTranslation extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
   protected $fillable = ['title', 'lang', 'flash_deal_id'];
 

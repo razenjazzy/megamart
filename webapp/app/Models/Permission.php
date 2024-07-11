@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Permission extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
-  //
+  
 }

@@ -8,7 +8,7 @@ use App;
 
 class Attribute extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
     protected $with = ['attribute_translations'];
 

@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Search extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
-  //
+  
 }

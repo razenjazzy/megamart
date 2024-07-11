@@ -8,7 +8,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Product extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
     
     protected $guarded = ['choice_attributes'];
 

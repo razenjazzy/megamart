@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class ProxyPayment extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $table = 'proxypay_payments';
 }

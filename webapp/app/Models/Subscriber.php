@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Subscriber extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
-  //
+  
 }

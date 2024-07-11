@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class Customer extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
     protected $fillable = [
       'user_id',

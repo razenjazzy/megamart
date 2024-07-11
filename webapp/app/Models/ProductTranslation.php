@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class ProductTranslation extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
     protected $fillable = ['product_id', 'name', 'unit', 'description', 'lang'];
 

@@ -7,7 +7,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class SellerWithdrawRequest extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     public function user()
     {

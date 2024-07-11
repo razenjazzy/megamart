@@ -8,7 +8,7 @@ use App;
 
 class CustomerProduct extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $with = ['customer_product_translations'];
 

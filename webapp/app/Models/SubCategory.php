@@ -26,7 +26,7 @@ use App\Traits\PreventDemoModeChanges;
 
 class SubCategory extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
 
     public function category()

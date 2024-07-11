@@ -7,9 +7,9 @@ use App\Traits\PreventDemoModeChanges;
 
 class AffiliateUser extends Model
 {
-  use PreventDemoModeChanges;
+  // use PreventDemoModeChanges;
 
-    //
+    
     public function user(){
     	return $this->belongsTo(User::class);
     }

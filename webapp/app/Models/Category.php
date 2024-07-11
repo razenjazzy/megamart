@@ -8,7 +8,7 @@ use App;
 
 class Category extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected $with = ['category_translations'];
 

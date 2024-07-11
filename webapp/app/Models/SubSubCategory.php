@@ -28,7 +28,7 @@ use Illuminate\Database\Eloquent\Builder;
  */
 class SubSubCategory extends Model
 {
-    use PreventDemoModeChanges;
+    // use PreventDemoModeChanges;
 
     protected static function boot()
     {
