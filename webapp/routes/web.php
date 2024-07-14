@@ -271,6 +271,8 @@ Route::group(['middleware' => ['user', 'verified', 'unbanned']], function () {
     });
 
     Route::get('/all-notifications', [NotificationController::class, 'index'])->name('all-notifications');
+    Route::get('/non-linkable-notification-read', [NotificationController::class, 'read'])->name('non-linkable-notification-read');
+
 });
 
 Route::group(['middleware' => ['customer', 'verified', 'unbanned']], function () {
